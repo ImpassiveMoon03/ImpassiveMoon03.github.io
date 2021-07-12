@@ -12,6 +12,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+table tr th td {
+	border: inherit;
+}
 #maincontent {
 	width: 100%;
 	height: 100%;
@@ -105,6 +108,9 @@ a {
 .small {
 	font-size: 20px;
 }
+.ssmall {
+	font-size: 15px;
+}
 .github:hover {
 	background-color: white;
 	color: black;
@@ -140,4 +146,49 @@ h3.git {
 	margin: auto;
 	margin-top: 10px;
 	padding: 5px;
+}
+.botcontent {
+	width: 80%;
+	margin: auto;
+	color: white;
+	font-size: 20px;
+}
+.botlink {
+	width: 80%;
+	height: 40px;
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	color: white;
+}
+.botlink:hover {
+	background-color: white;
+	border-color: black;
+	color: black;
+}
+.botlinkimage {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+table.commands {
+	width: 70%;
+	border: 1px solid white;
+	margin: auto;
+	text-align: center;
+}
+h3.commands {
+	text-align: center;
+}
+.commandsname {
+	width: 35%;
+}
+.commandsdesc {
+	width: 65%;
 }
