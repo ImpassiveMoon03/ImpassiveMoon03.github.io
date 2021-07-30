@@ -12,11 +12,18 @@
 			<div id="header" onclick="window.open('./index.html', '_self')" style="cursor:pointer;">
 				Github Repos | Click To Go Back
 			</div>
+			<p id="sub">Which Repos Would You Like To See?</p>
+			<select id="selector" onchange="swap()">
+				<option>All (12)</option>
+				<option>HTML (1)</option>
+				<option>Python (4)</option>
+				<option>JavaScript (7)</option>
+			</select>
 			<div id="gitwrapper">
-				<div class="gitbox">
+				<div class="gitbox HTML">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/impassivemoon03.github.io', '_blank')">
 						<img class="gitimage" src="./assets/zel.png">
-						<p class="gittext ssmall">impassivemoon02.github.io</p>
+						<p class="gittext ssmall">impassivemoon03.github.io</p>
 					</div>
 					<p class="git">
 						This is the repo to my github pages site
@@ -28,7 +35,7 @@
 					</p>
 				</div>
 
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/tic-tac-toe-bot', '_blank')">
 						<img class="gitimage" src="./assets/tictactoe.png">
 						<p class="gittext">Tic Tac Toe Bot</p>
@@ -39,13 +46,13 @@
 						<b>Initial Commit</b> - October 8, 2020<br/>
 						<b>Most Recent</b> - July 30, 2021<br/>
 						<b>License</b> - None<br/>
-						<b>Language</b> - JavaScript<br/>
+						<b>Language</b> - Node.js(JavaScript)<br/>
 						<b><a href="./discord-bots/tictactoe.html" class="git">Bot Page</a></b><br/>
 						<b><a href="https://top.gg/bot/762833969183326228" class="git" target="_blank">Top.gg Page</a></b>
 					</p>
 				</div>
 				
-				<div class="gitbox">
+				<div class="gitbox Python">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/dictionary', '_blank')">
 						<img class="gitimage" src="./assets/dict.png">
 						<p class="gittext">Dictionary</p>
@@ -60,7 +67,7 @@
 					</p>
 				</div>
 				
-				<div class="gitbox">
+				<div class="gitbox Python">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/last-seen', '_blank')">
 						<img class="gitimage" src="./assets/dnd.png">
 						<p class="gittext">Last Seen</p>
@@ -75,7 +82,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox Python">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/tictacnanopy', '_blank')">
 						<img class="gitimage" src="./assets/tictactoe.png">
 						<p class="gittext">TicTacNanoPy</p>
@@ -89,7 +96,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/tic-tac-nano-2', '_blank')">
 						<img class="gitimage" src="./assets/tictactoe.png">
 						<p class="gittext">tic-tac-nano-2</p>
@@ -104,7 +111,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox Python">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/twitter-bot', '_blank')">
 						<img class="gitimage" src="./assets/twitter.png">
 						<p class="gittext">Twitter Bot</p>
@@ -118,7 +125,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/first-discord-bot', '_blank')">
 						<img class="gitimage" src="./assets/discord-crop.png">
 						<p class="gittext">First Discord Bot</p>
@@ -132,7 +139,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/reddit-bot', '_blank')">
 						<img class="gitimage" src="./assets/reddit.png">
 						<p class="gittext">Reddit Bot</p>
@@ -146,7 +153,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/YGO-RP-Bot', '_blank')">
 						<img class="gitimage" src="./assets/ygorp.png">
 						<p class="gittext">YGO RP Bot</p>
@@ -161,7 +168,7 @@
 					</p>
 				</div>
 			
-				<div class="gitbox">
+				<div class="gitbox JavaScript HTML">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/rock-paper-scissors', '_blank')">
 						<img class="gitimage" src="./assets/rps.png">
 						<p class="gittext small">Rock Paper Scissors</p>
@@ -175,7 +182,7 @@
 					</p>
 				</div>
 				
-				<div class="gitbox">
+				<div class="gitbox JavaScript">
 					<div class="github" onclick="window.open('https://www.github.com/ImpassiveMoon03/night-shade', '_blank')">
 						<img class="gitimage" src="./assets/ns.png">
 						<p class="gittext">Night Shade</p>
@@ -186,10 +193,12 @@
 						<b>Initial Commit</b> - March 3, 2021<br/>
 						<b>Most Recent</b> - March 13, 2021<br/>
 						<b>License</b> - None<br/>
-						<b>Language</b> - JavaScript<br/>
+						<b>Language</b> - Node.js(JavaScript)<br/>
 					</p>
 				</div>
 			</div>
 		</div>
+
+		<script src="./scripts/repos.js"></script>
 	</body>
 </html>
