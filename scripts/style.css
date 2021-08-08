@@ -214,3 +214,7 @@ h3.commands {
 .commandsdesc {
 	width: 65%;
 }
+.slash {
+	width: 20px;
+	vertical-align: center;
+}
