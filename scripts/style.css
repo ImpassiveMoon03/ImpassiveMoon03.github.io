@@ -74,6 +74,22 @@ option {
 	text-align: center;
 	font-size: 25px;
 }
+#botcommandselector {
+	width: 80%;
+	color: white;
+	margin-left: 10%;
+	background-color: inherit;
+	border: none;
+	font-size: 25px;
+}
+#changelogselector {
+	width: 80%;
+	color: white;
+	margin-left: 10%;
+	background-color: inherit;
+	border: none;
+	font-size: 25px;
+}
 .link {
 	width: 80%;
 	height: 40px;
@@ -217,4 +233,31 @@ h3.commands {
 .slash {
 	width: 20px;
 	vertical-align: center;
+}
+.botcommandheader {
+	text-align: center;
+}
+.botcommanddiv {
+	display: none;
+	width: 70%;
+	margin: auto;
+}
+.botcommandimg {
+	width: 50%;
+	margin-left: 25%;
+}
+.head {
+	text-align: center;
+	font-size: 20px;
+}
+.ex {
+	text-align: center;
+}
+.changelogdiv {
+	display: none;
+	width: 70%;
+	margin: auto;
+}
+.changelogcontent {
+	margin-top: 10px;
 }
